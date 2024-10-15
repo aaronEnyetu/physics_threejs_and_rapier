@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+
+.nav-links {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10; /* Ensure it appears above the canvas */
+    background: #d4ae37; /* Optional: background for readability */
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #9bd7f1; /* Change color as needed */
+}
